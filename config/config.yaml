@@ -1,0 +1,43 @@
+# SDK Details
+sdk_info:
+    sdk_directory: "sdk"
+    win_lib: "win_lib"
+    common_lib: "common_lib"
+    common_def_file: "common.js"
+
+# Configuration Details
+config:    
+    config_directory: "config"
+    config_file: "config.yaml"
+    api_config: "api_config.csv"
+    api_watch_file: "api_watch_file.csv"
+    api_reporting_config: "api_reporting_config.csv"
+    gui_config_file: "gui_config.json"
+    api_injector: "api_injector"
+
+# MSMQ Details
+queue_info:
+    config_queue: "FriSpyConfig"
+    event_queue: "FriSpyEvent"
+
+# Log files
+logger_data:
+    log_directory: "logs"
+    execution: "execution.log"
+    error: "error.log"
+    api_capture: "api_capture.log"
+
+# Behavior reports
+report:
+    report_directory: "report"
+    basic: "behavior_basic.json"
+    restricted: "behavior_restricted.json"
+    complete: "behavior_complete.json"
+
+miscellaneous:
+    enable_whitelist: True
+    enable_save_api_watch_list: False
+    enable_save_behavior_report: False
+    capture_report_basic: False
+    capture_report_complete: False
+    execution_timeout_seconds: 120
