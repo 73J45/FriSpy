@@ -29,4 +29,4 @@ FriSpy is developed by keeping lack of a easily configurable and intelligent ope
 
 ## Usage
 1. Execute FrispyController.py
-2. Execute FriSpy.py to execute FriSpy GUI
+2. Execute FriSpy.py to launch FriSpyGUI
